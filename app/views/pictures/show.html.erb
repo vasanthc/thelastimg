@@ -1,0 +1,11 @@
+Show Page
+
+<%= link_to("Index Page", pictures_path)   %>
+<%= params[:id].to_i %>
+<br>
+<%= @picture.artist %>
+<br>
+<%= @picture.title %>
+<br>
+<%= @picture.url %>
+<%= image_tag @picture.url %>
